@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="custom.prtg.rundecknotification.state" desiredValue="1" undefinedState="Warning" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+        <SingleInt state="None" value="0">No result returned</SingleInt>
+        <SingleInt state="Ok" value="1">Succeeded</SingleInt>
+        <SingleInt state="Error" value="2">Failed</SingleInt>
+	    <SingleInt state="Warning" value="3">Aborted</SingleInt>
+	    <SingleInt state="Warning" value="4">Running</SingleInt>
+    </Lookups>
+</ValueLookup>
